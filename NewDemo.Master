@@ -1,0 +1,27 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="NewDemo.master.cs" Inherits="WebApplication3.NewDemo" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <div style="color: blue; padding: 10px;">
+                From Header - New Demo Master
+            </div>
+            <hr />
+            <asp:ContentPlaceHolder ID="body" runat="server">
+            </asp:ContentPlaceHolder>
+            <hr />
+            <div style="color: black; padding: 10px">
+                From Footer - New Demo Master
+            </div>
+        </div>
+    </form>
+</body>
+</html>
